@@ -4,7 +4,8 @@
             Prueba Camilo López
         </title>
         <body>
-            <?php echo '<p> Hola Mundo!! Camilo<p>' ;?>
+            
+            <?php echo '<p> Hola Mundo!!<p>', $_GET['name']?>
         </body>
     </head>
 </html>
